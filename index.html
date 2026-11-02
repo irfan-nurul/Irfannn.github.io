@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Irfan Nurul | Personal Website</title>
+    <meta
+      name="description"
+      content="Personal website for Irfan Nurul — developer, creator, and tech enthusiast."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav">
+        <a href="#top" class="logo">IN</a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1>Irfan Nurul</h1>
+            <p class="subtitle">Developer • Creator • Problem Solver</p>
+            <p class="lead">
+              I build digital experiences that are thoughtful, useful, and made to
+              last. I enjoy turning ideas into elegant, practical products.
+            </p>
+            <div class="cta-row">
+              <a class="button primary" href="#projects">View Projects</a>
+              <a class="button secondary" href="#contact">Let’s Talk</a>
+            </div>
+            <ul class="quick-stats" aria-label="Quick facts">
+              <li><strong>2+</strong><span>Years building</span></li>
+              <li><strong>10+</strong><span>Projects shipped</span></li>
+              <li><strong>100%</strong><span>Curiosity-driven</span></li>
+            </ul>
+          </div>
+
+          <div class="hero-card" aria-label="Profile card">
+            <div class="avatar">IN</div>
+            <div class="card-body">
+              <p class="label">Currently</p>
+              <h2>Creative Technologist</h2>
+              <p>
+                Exploring product design, web development, automation, and meaningful
+                digital experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About</p>
+            <h2>Building with clarity and purpose.</h2>
+          </div>
+          <div class="about-grid">
+            <div class="about-card">
+              <h3>Who I am</h3>
+              <p>
+                I’m a developer passionate about clean design, practical solutions,
+                and learning by building. I enjoy creating experiences that are both
+                beautiful and functional.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>What I do</h3>
+              <p>
+                I design and develop personal projects, websites, interfaces, and
+                lightweight tools that help people work smarter and enjoy the process.
+              </p>
+            </div>
+            <div class="about-card">
+              <h3>How I work</h3>
+              <p>
+                I like simple systems, strong foundations, and user-focused design.
+                Every project starts with understanding the problem, then shaping the
+                solution around real needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h2>Recent work and ideas.</h2>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <span class="tag">Website</span>
+              <h3>Personal Portfolio</h3>
+              <p>
+                A responsive personal website focused on storytelling, skills, and
+                showing work in a polished and modern way.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">Productivity</span>
+              <h3>Task Automation</h3>
+              <p>
+                Lightweight automation workflows for saving time, reducing repetitive
+                tasks, and increasing output without friction.
+              </p>
+            </article>
+
+            <article class="project-card">
+              <span class="tag">Design</span>
+              <h3>UI Experiments</h3>
+              <p>
+                Exploring interfaces and interactions that balance usability, motion,
+                and clarity in digital products.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools I use to create.</h2>
+          </div>
+
+          <div class="skills-wrap">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Git</span>
+            <span>UI/UX</span>
+            <span>Responsive Design</span>
+            <span>Problem Solving</span>
+            <span>Automation</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section cta-section">
+        <div class="container contact-box">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something meaningful.</h2>
+          </div>
+          <a class="button primary" href="mailto:hello@irfannurul.com">hello@irfannurul.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Irfan Nurul</p>
+        <div class="socials">
+          <a href="https://github.com/irfan-nurul" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
